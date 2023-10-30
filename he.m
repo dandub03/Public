@@ -1,4 +1,5 @@
-s = 200; % Ilość losowych wartości u 
+bs = [1,0.8,1,1.5,0.6] % Startowa matryca b od b0 do b4 
+ s = 200; % Ilość losowych wartości u 
  u = rand(s,1) % Matryca losowych wartości u 
  y0 =(bs(1)-bs(2)*u)./(bs(3)-bs(4)*u+bs(5)*u.^2) % Wyliczenie y0  
   
